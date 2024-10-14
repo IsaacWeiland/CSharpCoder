@@ -1,0 +1,33 @@
+h1 {
+    color:indigo;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(164,0,255,1) 100%);
+
+
+}
+
+.skills{
+    color: white;
+    background-color: rgb(51, 35, 194);
+    height: 100px;
+    width: 480px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 5px 5px rgb(37, 36, 36);
+}
+
+#dog{
+    height: 650px;
+    width: 400px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 5px;
+}
