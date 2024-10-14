@@ -1,33 +1,50 @@
 h1 {
     color:indigo;
+    display: block;
+    justify-content: baseline;
 }
 
 body{
     background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(164,0,255,1) 100%);
-
-
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(234, 194, 255) 0%, rgba(255,255,255,1) 100%) no-repeat;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+main{
+    margin-left: 25px;
+    p{
+        display: flex;
+        justify-content: left;
+        margin-left: 25px;
+    }
+    img{
+        height: 500px;
+        width: 400px;
+    }
+    .HomePicture{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+    }
+}
 .skills{
     color: white;
     background-color: rgb(51, 35, 194);
-    height: 100px;
-    width: 480px;
+    height: 225px;
+    width: 250px;
     border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    box-shadow: 10px 5px 5px rgb(37, 36, 36);
+    box-shadow: 5px 5px 5px rgb(37, 36, 36);
+    h2{
+        margin-left: 15px;
+    }
+    ul{
+        font-size: larger;
+        margin-top: 45px;
+        margin-left: 25px;
+    }
 }
 
-#dog{
-    height: 650px;
-    width: 400px;
-}
-ul{
-    list-style: none;
+
+footer{
     display: flex;
-}
-li{
-    margin-right: 5px;
+    justify-content: end;
 }
